@@ -1,0 +1,12 @@
+{
+    "posts": [
+      { "id": 1, "title": "Hello World" }
+    ],
+    "comments": [
+      { "id": 1, "body": "Nice post!", "postId": 1 }
+    ],
+    "catogaries":[
+      {"id":1,"paragraph":"It is an opportunity for us"}
+    ],
+  }
+  

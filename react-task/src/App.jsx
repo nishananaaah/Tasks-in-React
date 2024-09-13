@@ -6,6 +6,7 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import About from './components/Router/About'
 import Contact from './components/Router/Contact'
 import Tasksss from './components/PRACTICES/Tasksss'
+import Context from './components/Context'
 // import Parentcomponent from './components/PRACTICES/Parentcomponent'
 // import Count from './components/PRACTICES/Count'
 // import Title from './components/PRACTICES/Title'
@@ -99,7 +100,7 @@ function App() {
 {/* <Parentcomponent />
 <Count />
 <Title /> */}
-<Usememo />
+{/* <Usememo />
 <Ratings/>
 
 <BrowserRouter>
@@ -114,7 +115,8 @@ function App() {
 
 </Routes>
 </BrowserRouter>
-<Tasksss/>
+<Tasksss/> */}
+<Context/>
 
 
 

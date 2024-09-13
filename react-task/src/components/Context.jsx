@@ -7,16 +7,16 @@ import Component1 from './Component1';
 export const userContext = createContext()
 const Context = () => {
     const [count, setCount] = useState(0);
-    const [count2, setCount2] = useState(0);
-    const arr = [1, 2, 3, 4, 5];
-    const person = {
-        name: "Nishana",
-        age: 20,
-    }
-    const name="nishana";
+    // const [count2, setCount2] = useState(0);
+    // const arr = [1, 2, 3, 4, 5];
+    // const person = {
+    //     name: "Nishana",
+    //     age: 20,
+    // }
+    // const name="nishana";
     return (
         <div>
-            <userContext.Provider value={{ count, setCount, count2, setCount2, arr,person,name }}>
+            <userContext.Provider value={{ count, setCount }}>
                 <Component2 />
                 <Component3 />
                 <Component1 />

@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
-import Usememo from './components/Hooks/Usememo'
-import Ratings from './components/PRACTICES/Ratings'
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
-import About from './components/Router/About'
-import Contact from './components/Router/Contact'
-import Tasksss from './components/PRACTICES/Tasksss'
-import Context from './components/Context'
+import Task2 from './components/Task2'
+// import Usememo from './components/Hooks/Usememo'
+// import Ratings from './components/PRACTICES/Ratings'
+// import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+// import About from './components/Router/About'
+// import Contact from './components/Router/Contact'
+// import Tasksss from './components/PRACTICES/Tasksss'
+// import Context from './components/Context'
 // import Parentcomponent from './components/PRACTICES/Parentcomponent'
 // import Count from './components/PRACTICES/Count'
 // import Title from './components/PRACTICES/Title'
@@ -48,6 +49,7 @@ function App() {
 
   // const [count,setCount] =  useState(0)
   // const [color,setColor] = useState('red')
+ 
 
   return (
     <div>
@@ -116,7 +118,8 @@ function App() {
 </Routes>
 </BrowserRouter>
 <Tasksss/> */}
-<Context/>
+{/* <Context/> */}
+<Task2 name={["blue","yellow","green"]}/>
 
 
 

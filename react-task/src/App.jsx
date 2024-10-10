@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './App.css'
 import Task2 from './components/Task2'
+import Usememo from './components/Hooks/Usememo'
 // import Usememo from './components/Hooks/Usememo'
 // import Ratings from './components/PRACTICES/Ratings'
 // import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
@@ -120,7 +121,7 @@ function App() {
 <Tasksss/> */}
 {/* <Context/> */}
 <Task2 name={["blue","yellow","green"]}/>
-
+<Usememo/>
 
 
 
